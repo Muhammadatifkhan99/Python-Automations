@@ -13,3 +13,4 @@ import os
 
 os.path.exists("atif.txt")
 #os.path.exists("userlist.txt")
+os.path.getsize("atif.txt")
