@@ -4,5 +4,9 @@ import os
 
 # os.makedirs("new dir")
 
-os.chdir("new dir")
-print(os.getcwd())
+# os.chdir("new dir")
+# print(os.getcwd())
+
+# os.mkdir("atif")
+# os.rmdir("atif")
+os.rmdir("new dir")
