@@ -68,4 +68,8 @@ print(re.search(r".com","welcome"))
 
 print(re.search(r"\.com","www.google.com"))
 
+#backslash matches letters numbers and underscores 
+
+print(re.search(r"\w*","This is an example"))
+print(re.search(r"\w*","This_is_another_example"))
 
