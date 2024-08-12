@@ -64,12 +64,24 @@ import re
 # Escape characters::::::::::
 
 
-print(re.search(r".com","welcome"))
+# print(re.search(r".com","welcome"))
 
-print(re.search(r"\.com","www.google.com"))
+# print(re.search(r"\.com","www.google.com"))
 
 #backslash matches letters numbers and underscores 
 
-print(re.search(r"\w*","This is an example"))
-print(re.search(r"\w*","This_is_another_example"))
+# print(re.search(r"\w*","This is an example"))
+# print(re.search(r"\w*","This_is_another_example"))
 
+
+# backslash \d for matching digits;::
+# backslash \s for mathcing whitespace 
+# backslash \b for mathcing word boundries
+
+
+# Names that starts and ends with a with as many characters as possible in the mid.....
+
+print(re.search(r"A.*a", "Austrila"))
+
+# this will print names that begins and ends with the name A..the following sequnce won't match anymore...
+print(re.search(r"^A.*a$", "Azerbaijan"))
